@@ -1,4 +1,4 @@
-// JavaScript Document
+// JavaScript Document prueba
 $(document).ready(function(e) {
     document.addEventListener("deviceready",function(){ //escuchador de eventos
 		$('#izquierda').on("swipeleft",function(){ //deslizar ala izquierda
@@ -9,7 +9,7 @@ $(document).ready(function(e) {
 				switch(op) //valiable op para las oociones
 				{
 					case 1:
-					navigator.notificacion.beep(1); // suena dispositivo
+					navigator.notification.beep(1); // suena dispositivo
 					break;
 					
 					case 2:
